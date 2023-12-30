@@ -1,0 +1,99 @@
+{
+    "title": "fn + ijkl to command + option + wasd",
+    "rules": [
+      {
+        "description": "fn + ijkl to command + option + wasdt",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "i",
+              "modifiers": {
+                "mandatory": ["fn"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "w",
+                "modifiers": [
+                  "right_command",
+                  "right_option"
+                ]
+                
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "j",
+              "modifiers": {
+                "mandatory": ["fn"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "a",
+                "modifiers": [
+                  "right_command",
+                  "right_option"
+                ]
+                
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+          {
+            "type": "basic",
+            "from": {
+                "key_code": "k",
+                "modifiers": {
+                    "mandatory": ["fn"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "s",
+                "modifiers": [
+                  "right_command",
+                  "right_option"
+                ]
+                
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "l",
+              "modifiers": {
+                "mandatory": ["fn"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "d",
+                "modifiers": [
+                  "right_command",
+                  "right_option"
+                ]
+                
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          }
+        ] 
+      }
+    ]
+  }
+  

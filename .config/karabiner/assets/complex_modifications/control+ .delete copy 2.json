@@ -1,0 +1,95 @@
+{
+  "title": "shift + backspace to {",
+  "rules": [
+    {
+      "description": "shift + backspace to {",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "delete_or_backspace",
+            "modifiers": {
+              "mandatory": ["shift"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "open_bracket",
+              "modifiers": ["shift"]
+            }
+          ],
+          "conditions": [],
+          "parameters": {}
+        }
+      ]
+    },
+    {
+        "description": "shift + delete to }",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "delete_forward",
+              "modifiers": {
+                "mandatory": ["shift"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "close_bracket",
+                "modifiers": ["shift"]
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "description": "control + backspace to [",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "delete_or_backspace",
+              "modifiers": {
+                "mandatory": ["control"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "open_bracket"
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "description": "control + delete to ]",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "delete_forward",
+              "modifiers": {
+                "mandatory": ["control"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "close_bracket"
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          }
+        ]
+      }
+  ]
+}

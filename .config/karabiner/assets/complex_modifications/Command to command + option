@@ -1,0 +1,27 @@
+{
+    "title": "Command to command + option",
+    "rules": [
+        {
+            "description": "Command to command + option",
+            "manipulators": [
+              {
+                "type": "basic",
+                "from": {
+                  "key_code": "left_command",
+                  "modifiers": {
+                    "optional": ["any"]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "left_command",
+                    "modifiers": ["left_option"]
+                  }
+                ],
+                "conditions": [],
+                "parameters": {}
+              }
+            ]
+          }
+    ]
+  }

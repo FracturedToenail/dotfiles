@@ -1,0 +1,29 @@
+{
+    "title": "Control + u to return",
+    "rules": [
+      {
+        "description": "Control + u to return",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "u",
+              "modifiers": {
+                "mandatory": ["left_control"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "return_or_enter",
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          }
+        ]
+      }
+       
+    ]
+  }
+  

@@ -1,0 +1,204 @@
+{
+    "title": "command + keysssss to command + option + keys v2.6",
+    "rules": [
+      {
+        "description": "command + keys to command + option + keys",
+        "manipulators": [
+        
+  {
+            "type": "basic",
+            "from": {
+              "key_code": "y",
+              "modifiers": {
+                "mandatory": ["left_command"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "y",
+                "modifiers": [
+                      "left_option",
+                      "left_command"
+                    ]
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+  {
+            "type": "basic",
+            "from": {
+              "key_code": "u",
+              "modifiers": {
+                "mandatory": ["left_command"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "u",
+                "modifiers": [
+                      "left_option",
+                      "left_command"
+                    ]
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+  {
+            "type": "basic",
+            "from": {
+              "key_code": "i",
+              "modifiers": {
+                "mandatory": ["left_command"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "i",
+                "modifiers": [
+                      "left_option",
+                      "left_command"
+                    ]
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+  {
+            "type": "basic",
+            "from": {
+              "key_code": "o",
+              "modifiers": {
+                "mandatory": ["left_command"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "o",
+                "modifiers": [
+                      "left_option",
+                      "left_command"
+                    ]
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+  {
+            "type": "basic",
+            "from": {
+              "key_code": "p",
+              "modifiers": {
+                "mandatory": ["left_command"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "p",
+                "modifiers": [
+                      "left_option",
+                      "left_command"
+                    ]
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+  {
+            "type": "basic",
+            "from": {
+              "key_code": "h",
+              "modifiers": {
+                "mandatory": ["left_command"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "period",
+                "modifiers": [
+                      "left_option",
+                      "left_command"
+                    ]
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+  {
+            "type": "basic",
+            "from": {
+              "key_code": "j",
+              "modifiers": {
+                "mandatory": ["left_command"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "j",
+                "modifiers": [
+                      "left_option",
+                      "left_command"
+                    ]
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+  {
+            "type": "basic",
+            "from": {
+              "key_code": "k",
+              "modifiers": {
+                "mandatory": ["left_command"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "k",
+                "modifiers": [
+                      "left_option",
+                      "left_command"
+                    ]
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+  {
+            "type": "basic",
+            "from": {
+              "key_code": "l",
+              "modifiers": {
+                "mandatory": ["left_command"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "l",
+                "modifiers": [
+                      "left_option",
+                      "left_command"
+                    ]
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          }
+  
+      ]
+  
+      }
+  
+    ]
+  }
+  

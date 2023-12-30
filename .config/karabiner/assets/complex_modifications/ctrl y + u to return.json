@@ -1,0 +1,46 @@
+{
+    "title": "Control + u or y to return",
+    "rules": [
+      {
+        "description": "Control + u or y to return",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "y",
+              "modifiers": {
+                "mandatory": ["left_control"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "return_or_enter"
+                
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "u",
+              "modifiers": {
+                "mandatory": ["left_control"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "return_or_enter"
+                
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          }
+        ] 
+      }
+    ]
+  }

@@ -1,0 +1,81 @@
+{
+  "title": "fixes the brackets so they make sense",
+  "rules": [
+    {
+      "description": "shift + backspace to {",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "delete_or_backspace",
+            "modifiers": {
+              "mandatory": ["shift"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "open_bracket",
+              "modifiers": ["shift"]
+            }
+          ],
+          "conditions": [],
+          "parameters": {}
+        },
+        {
+            "type": "basic",
+            "from": {
+              "key_code": "delete_forward",
+              "modifiers": {
+                "mandatory": ["shift"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "close_bracket",
+                "modifiers": ["shift"]
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "delete_or_backspace",
+              "modifiers": {
+                "mandatory": ["control"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "open_bracket"
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "delete_forward",
+              "modifiers": {
+                "mandatory": ["control"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "close_bracket"
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          }
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "title": "control + h to delete",
+    "rules": [
+        {
+            "description": "control + u to delete",
+            "manipulators": [
+              {
+                "type": "basic",
+                "from": {
+                  "key_code": "u",
+                  "modifiers": {
+                    "optional": ["any"],
+                    "mandatory": ["left_control"]
+                  }
+                },
+                "to": [
+                  {
+                    "key_code": "delete_or_backspace"
+                  }
+                ],
+                "conditions": [],
+                "parameters": {}
+              }
+            ]
+          }
+    ]
+  }

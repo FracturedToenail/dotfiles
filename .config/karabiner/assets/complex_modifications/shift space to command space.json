@@ -1,0 +1,54 @@
+{
+    "title": "alfred + other help v3",
+    "rules": [
+      {
+        "description": "alfred + other help v3",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "spacebar",
+              "modifiers": {
+                "mandatory": ["left_control"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "spacebar",
+                "modifiers": [
+                  "left_option"
+                ]
+                
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "spacebar",
+              "modifiers": {
+                "mandatory": ["left_command"],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "k",
+                "modifiers": [
+                  "right_command"
+                ]
+                
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          }
+        ] 
+      }
+       
+    ]
+  }
+  

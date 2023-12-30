@@ -1,0 +1,100 @@
+{
+    "title": "browser help v2.6 ",
+    "rules": [
+      {
+        "description": "browser help",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "j",
+              "modifiers": {
+                "mandatory": [
+                  "left_control",
+                  "left_command"
+                ],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "w",
+                "modifiers": "right_command"
+                
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "k",
+              "modifiers": {
+                "mandatory": [
+                  "left_control",
+                  "left_command"
+                ],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "t",
+                "modifiers": "right_command"
+                
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "h",
+              "modifiers": {
+                "mandatory": [
+                  "left_control",
+                  "left_command"
+                ],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "open_bracket",
+                "modifiers":["right_command", "left_shift"]
+                
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "l",
+              "modifiers": {
+                "mandatory": [
+                  "left_control",
+                  "left_command"
+                ],
+                "optional": ["any"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "close_bracket",
+                "modifiers":["right_command", "left_shift"]
+                
+              }
+            ],
+            "conditions": [],
+            "parameters": {}
+          }
+          
+        ] 
+      }
+    ]
+  }
+  
