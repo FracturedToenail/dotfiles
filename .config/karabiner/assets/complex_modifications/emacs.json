@@ -1,0 +1,28 @@
+{
+  "title": "Command + semicolon to open emacs",
+  "rules": [
+    {
+      "description": "Command + semicolon to open emacs",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": ["left_command"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+        {
+            "shell_command": "open -a 'emacs'"
+        }
+    ],
+          "conditions": [],
+          "parameters": {}
+        }
+      ]
+    }
+
+  ]
+}
